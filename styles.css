@@ -22,6 +22,14 @@ tbody tr:nth-child(even) {
     color: green;
   }
   
+  td:nth-child(3) {
+    color: blue;
+  }
+
   td:nth-child(4) {
+    color: green;
+  }
+
+  td:nth-child(5) {
     color: blue;
   }
