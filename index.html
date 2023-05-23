@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Static Website with JSON Table</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Onramper Deployment Status </h1>
+
+    <br>
+    <br>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Service</th>
+        <th>STG Dep Date</th>
+        <th>STG Dep Label</th>
+        <th>PROD Dep Date</th>
+        <th>PROD Dep Label</th>
+      </tr>
+    </thead>
+    <tbody id="myTableBody">
+      <!-- Table rows will be dynamically generated here -->
+    </tbody>
+  </table>
+
+  <script src="data.json"></script>
+  <script src="script.js"></script>
+</body>
+</html>
