@@ -17,6 +17,10 @@ table {
 tbody tr:nth-child(even) {
     background-color: #f9f9f9;
   }
+
+  td:first-child {
+    font-weight: bold;
+  }
   
   td:nth-child(2) {
     color: green;
