@@ -18,7 +18,10 @@ tbody tr:nth-child(even) {
     background-color: #f9f9f9;
   }
   
-  td:nth-child(4) {
+  td:nth-child(2) {
     color: green;
   }
   
+  td:nth-child(4) {
+    color: blue;
+  }
