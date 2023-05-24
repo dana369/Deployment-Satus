@@ -1,0 +1,66 @@
+[
+    {
+      "service": "odpv2demo",
+      "stgdd": "dd",
+      "stgdl": "dl",
+      "proddd": "dd",
+      "proddl": "dl"
+    },
+    {
+        "service": "Authorizer",
+        "stgdd": "dd",
+        "stgdl": "dl",
+        "proddd": "dd",
+        "proddl": "dl"
+    },
+    {
+        "service": "Checkout",
+        "stgdd": "dd",
+        "stgdl": "dl",
+        "proddd": "dd",
+        "proddl": "dl"
+    },
+    {
+        "service": "Transactions",
+        "stgdd": "dd",
+        "stgdl": "dl",
+        "proddd": "dd",
+        "proddl": "dl"
+    },
+    {
+        "service": "Responses",
+        "stgdd": "dd",
+        "stgdl": "dl",
+        "proddd": "dd",
+        "proddl": "dl"
+    },
+    {
+        "service": "Partners",
+        "stgdd": "dd",
+        "stgdl": "dl",
+        "proddd": "dd",
+        "proddl": "dl"
+    },
+    {
+        "service": "Recommendations",
+        "stgdd": "dd",
+        "stgdl": "dl",
+        "proddd": "dd",
+        "proddl": "dl"
+    },
+    {
+        "service": "Supported",
+        "stgdd": "dd",
+        "stgdl": "dl",
+        "proddd": "dd",
+        "proddl": "dl"
+    },
+    {
+        "service": "Quotes",
+        "stgdd": "dd",
+        "stgdl": "dl",
+        "proddd": "dd",
+        "proddl": "dl"
+    }
+  ]
+  

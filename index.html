@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Static Website</title>
-  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1022.0.min.js"></script>
-  <script src="script.js"></script>
+  <title>Static Website with JSON Table</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <h1>My Static Website</h1>
-  <div id="function-details">
-    <h2>Lambda Function Details</h2>
-    <p><strong>Description:</strong> <span id="description"></span></p>
-    <p><strong>Last Modified:</strong> <span id="last-modified"></span></p>
-  </div>
+    <h1>Onramper Deployment Status </h1>
+
+    <br>
+    <br>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Service</th>
+        <th>STG Dep Date</th>
+        <th>STG Dep Label</th>
+        <th>PROD Dep Date</th>
+        <th>PROD Dep Label</th>
+      </tr>
+    </thead>
+    <tbody id="myTableBody">
+      <!-- Table rows will be dynamically generated here -->
+    </tbody>
+  </table>
+
+  <script src="data.json"></script>
+  <script src="script.js"></script>
 </body>
 </html>
