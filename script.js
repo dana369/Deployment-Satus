@@ -1,9 +1,9 @@
 window.addEventListener("DOMContentLoaded", function() {
     fetch('lambda_info.json')
       .then(response => response.json())
-      .then(lambda_info => {
+      .then(data => {
         const tableBody = document.getElementById("myTableBody");
-        lambda_info.forEach(item => {
+        data.forEach(item => {
           const row = document.createElement("tr");
           const serviceCell = document.createElement("td");
           const stgddCell = document.createElement("td");
