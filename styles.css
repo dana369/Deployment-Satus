@@ -2,6 +2,18 @@ body {
   background-color: rgb(255, 255, 255);;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px; /* Adjust the width as per your requirement */
+  height: auto; /* This ensures the image retains its aspect ratio */
+  margin-right: 10px; /* Add some spacing between the logo and the heading */
+}
+
+
 h1 {
   background-color: #ebfff7;; 
   padding: 50px; 
@@ -9,10 +21,11 @@ h1 {
 
 
 table {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
   }
-  
+
+
   th, td {
     border: 1px solid black;
     padding: 8px;
@@ -29,7 +42,7 @@ tbody tr:nth-child(even) {
   }
 
   td:first-child {
-    font-weight: bold;
+    font-family: "Arial", sans-serif;
   }
   
   td:nth-child(2) {
@@ -38,12 +51,9 @@ tbody tr:nth-child(even) {
   
   td:nth-child(3) {
     color: blue;
+    font-family: "Sans Mono", monospace;
   }
 
   td:nth-child(4) {
     color: green;
-  }
-
-  td:nth-child(5) {
-    color: blue;
   }

@@ -6,17 +6,20 @@ window.addEventListener("DOMContentLoaded", function() {
         data.forEach(item => {
           const row = document.createElement("tr");
           const serviceCell = document.createElement("td");
-          const stgddCell = document.createElement("td");
-          const stgdlCell = document.createElement("td");
+          const ddCell = document.createElement("td");
+          const dlCell = document.createElement("td");
+          const psCell = document.createElement("td");
   
           serviceCell.textContent = item.functionName;
-          stgddCell.textContent = item.lastModified;
-          stgdlCell.textContent = item.description;
+          ddCell.textContent = item.lastModified;
+          dlCell.textContent = item.description;
+          psCell.textContent = item.packageSize;
 
 
           row.appendChild(serviceCell);
-          row.appendChild(stgddCell);
-          row.appendChild(stgdlCell);
+          row.appendChild(ddCell);
+          row.appendChild(dlCell);
+          row.appendChild(psCell);
   
           tableBody.appendChild(row);
         });
