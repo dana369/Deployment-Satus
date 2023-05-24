@@ -8,20 +8,15 @@ window.addEventListener("DOMContentLoaded", function() {
           const serviceCell = document.createElement("td");
           const stgddCell = document.createElement("td");
           const stgdlCell = document.createElement("td");
-          const prodddCell = document.createElement("td");
-          const proddlCell = document.createElement("td");
   
-          serviceCell.textContent = item.service;
-          stgddCell.textContent = item.stgdd;
-          stgdlCell.textContent = item.stgdl;
-          prodddCell.textContent = item.proddd;
-          proddlCell.textContent = item.proddl;
+          serviceCell.textContent = item.functionName;
+          stgddCell.textContent = item.lastModified;
+          stgdlCell.textContent = item.description;
+
 
           row.appendChild(serviceCell);
           row.appendChild(stgddCell);
           row.appendChild(stgdlCell);
-          row.appendChild(prodddCell);
-          row.appendChild(proddlCell);
   
           tableBody.appendChild(row);
         });
