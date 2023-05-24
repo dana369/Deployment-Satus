@@ -8,7 +8,7 @@ body {
 }
 
 .logo {
-  width: 100px; /* Adjust the width as per your requirement */
+  width: 135px; /* Adjust the width as per your requirement */
   height: auto; /* This ensures the image retains its aspect ratio */
   margin-right: 10px; /* Add some spacing between the logo and the heading */
 }
@@ -17,6 +17,10 @@ body {
 h1 {
   background-color: #ebfff7;; 
   padding: 50px; 
+  flex-grow: 1;
+  text-align: center;
+  font-family: "Aeonik", "Inter", sans-serif;
+  font-style: normal;
 }
 
 

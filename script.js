@@ -11,9 +11,9 @@ window.addEventListener("DOMContentLoaded", function() {
           const psCell = document.createElement("td");
   
           serviceCell.textContent = item.functionName;
-          ddCell.textContent = item.lastModified;
+          ddCell.textContent = item.lastModified.substring(0, 10);
           dlCell.textContent = item.description;
-          psCell.textContent = item.packageSize;
+          psCell.textContent = (item.packageSize / 1024).toFixed(2);
 
 
           row.appendChild(serviceCell);
@@ -22,6 +22,7 @@ window.addEventListener("DOMContentLoaded", function() {
           row.appendChild(psCell);
   
           tableBody.appendChild(row);
+
         });
       })
       .catch(error => console.error('Error:', error));
